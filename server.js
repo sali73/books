@@ -21,7 +21,7 @@ const corsOptions = {
 };
 
 //==| DATABASE CONNECTION |
-mongoose.connect(MONGO_URI, {
+mongoose.connect('mongodb+srv://salimohamed:Sa101209ah@@cluster0.1ijhn.mongodb.net/books?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
